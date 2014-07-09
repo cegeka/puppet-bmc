@@ -12,5 +12,10 @@
 #
 class bmc {
 
+  include bmc::params
+
+  package { $bmc::params::package:
+    ensure => present
+  }
 
 }

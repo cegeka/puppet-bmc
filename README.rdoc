@@ -1,0 +1,5 @@
+= puppet-bmc module
+
+{<img src='https://codex.cegeka.be/jenkins/job/puppet-bmc/badge/icon' />}[https://codex.cegeka.be/jenkins/job/puppet-bmc/]
+
+This is the bmc module.

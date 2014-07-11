@@ -16,28 +16,28 @@
 # Purpose: Returns the BMC Default Gateway IP
 #
 
-Facter.add("bmc_ipaddress", :timeout => 2) do
+Facter.add(:bmc_ipaddress, :timeout => 2) do
   confine :is_virtual => :false
   setcode do
     ipaddress
   end
 end
 
-Facter.add("bmc_subnetmask", :timeout => 2) do
+Facter.add(:bmc_subnetmask, :timeout => 2) do
   confine :is_virtual => :false
   setcode do
    subnetmask
   end
 end
 
-Facter.add("bmc_macaddress", :timeout => 2) do
+Facter.add(:bmc_macaddress, :timeout => 2) do
   confine :is_virtual => :false
   setcode do
     macaddress
   end
 end
 
-Facter.add("bmc_defaultgateway", :timeout => 2) do
+Facter.add(:bmc_defaultgateway, :timeout => 2) do
   confine :is_virtual => :false
   setcode do
    defaultgateway

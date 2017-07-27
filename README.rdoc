@@ -1,5 +1,5 @@
 = puppet-bmc module
 
-{<img src='https://codex.cegeka.be/jenkins/job/puppet-bmc/badge/icon' />}[https://codex.cegeka.be/jenkins/job/puppet-bmc/]
+{<img src='https://jenkins-iac.cegeka.be/job/puppet-bmc/badge/icon' />}[https://jenkins-iac.cegeka.be/job/puppet-bmc/]
 
 This is the bmc module.
